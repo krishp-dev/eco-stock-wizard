@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				petpooja: {
+					primary: '#5e35b1',
+					'primary-light': '#7e57c2',
+					secondary: '#2c97de',
+					accent: '#ff9800',
+					success: '#4caf50',
+					warning: '#ffc107',
+					danger: '#f44336',
+					dark: '#212121',
+					light: '#f5f5f5',
+					gray: '#6c757d'
 				}
 			},
 			borderRadius: {
